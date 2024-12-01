@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shopping_Online"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Layout.UpdateLocation_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.AddLocation_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.LocationTakeProduct_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.HistoryPayment_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Setting_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Deltail"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.AddItemCart"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.UseCard_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.DetailProduct_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.AllProduct_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Voucher_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Payment_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.MyCard_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.MyReview_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Cart_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Acount_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.ASM_GD1"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Menu_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Banner_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Register_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.Login_Layout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
